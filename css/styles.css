@@ -109,6 +109,7 @@ header > .container {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-list-item:hover,
 .nav-list-item:focus {
@@ -117,6 +118,7 @@ header > .container {
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .contacts-list-item {
   color: #434455;
@@ -181,6 +183,7 @@ header > .container {
   width: calc((100% - 72px) / 4);
 }
 .feature-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .feature-title {
   color: #2e2f42;
@@ -223,7 +226,7 @@ header > .container {
 .team-list-item {
   background-color: #ffffff;
 }
-.team-list:first-child {
+.team-list:nth-child(1) {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
