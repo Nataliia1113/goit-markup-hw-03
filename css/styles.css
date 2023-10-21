@@ -226,7 +226,7 @@ header > .container {
 .team-list-item {
   background-color: #ffffff;
 }
-.team-list-item:nth-child(1) {
+.team-list:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
