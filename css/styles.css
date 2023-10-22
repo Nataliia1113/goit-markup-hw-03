@@ -46,7 +46,6 @@ img {
 }
 .container {
   box-sizing: border-box;
-  max-width: 1440px;
   margin: 0 auto;
   max-width: 1158px;
   padding: 0 15px;
@@ -64,10 +63,7 @@ img {
   overflow: hidden;
 }
 /* section header */
-.contacts {
-  font-style: normal;
-  display: flex;
-}
+
 .header {
   padding: 24px auto;
   border-bottom: 1px solid #e7e9fc;
@@ -76,8 +72,6 @@ header > .container {
   display: flex;
 }
 .nav {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -88,12 +82,10 @@ header > .container {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  margin-right: 156px;
-
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  margin: 0 76px 0 0;
 }
 .nav-logo-accent {
   color: #2e2f42;
@@ -101,7 +93,6 @@ header > .container {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-list-item {
   color: #2e2f42;
@@ -114,6 +105,11 @@ header > .container {
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+  display: flex;
+  margin-left: 332px;
 }
 .contacts-list {
   display: flex;
@@ -146,8 +142,7 @@ header > .container {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding: 188px 472px 18px 472px;
-  max-width: 496px;
+  margin: 0 316px 48px;
 }
 .hero-btn {
   color: #ffffff;
@@ -211,7 +206,6 @@ header > .container {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .name {
@@ -264,7 +258,7 @@ header > .container {
   column-gap: 24px;
   row-gap: 48px;
   margin: 0;
-  padding: 156px 0;
+  padding: 0;
   list-style: none;
 }
 .portfolio-list-item:first-child {
@@ -290,7 +284,6 @@ header > .container {
 }
 .logo {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-accent {
