@@ -172,7 +172,6 @@ header > .container {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
-  margin: 120px 156px;
 }
 .feature-list-item:first-child {
   width: calc((100% - 72px) / 4);
