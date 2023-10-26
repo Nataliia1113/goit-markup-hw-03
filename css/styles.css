@@ -86,7 +86,7 @@ header > .container {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   margin: 0 76px 0 0;
 }
 .nav-logo-accent {
@@ -119,11 +119,10 @@ header > .container {
   margin-left: 332px;
 }
 .contacts-list-item {
-  align-items: center;
-  /* color: #434455;
+  color: #434455;
   line-height: 1.5;
   font-size: 16px;
-  letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
 }
 
 .list-link:hover,
@@ -213,7 +212,7 @@ header > .container {
   padding: 32px 0;
 }
 .team-list {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
   display: flex;
   gap: 24px;
 }
